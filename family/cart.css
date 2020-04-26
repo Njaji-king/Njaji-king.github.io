@@ -1,0 +1,96 @@
+#web{
+  background-color:linear-gradient(to right,rgb(226, 214, 214),rgb(153, 134, 134));  
+}
+#two{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    overflow: scroll;
+    border: 2px solid black;
+    height: 500px;
+}
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: lawngreen;
+}
+.one{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 2px solid ,rgb(226, 214, 214);
+    border-radius: 30px;
+    text-align: center;
+    width: 250px;
+    
+}
+img{
+    height: 150px;
+    width: 240px;
+    margin-top: 50px;
+    
+}
+.search{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family:fantasy ;
+    border-radius: 11px;
+}
+.cart{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 2px;
+    border-radius: 5px;
+}
+.add{
+    margin-bottom: 10px;
+    border: 2px solid rgb(94, 167, 10);
+    border-radius: 10px ;
+    transition: 0.01s ease-in-out;
+}
+.add:hover{
+    background-color: green;
+    border-radius: 0%;
+    transform: scale(1.2);
+}
+.twa{
+    margin-bottom: 10px;
+    border: 2px solid rgb(94, 167, 10);
+    border-radius: 10px ;
+    transition: 0.01s ease-in-out;
+}
+.liked{
+    margin-bottom: 10px;
+    border: 2px solid rgb(94, 167, 10);
+    border-radius: 10px ;
+}
+p{
+    font-family: fantasy;
+    font-style: oblique;
+    font-size: 15px;
+    background-color: rgb(42, 219, 26);
+    color: rgb(29, 14, 168);
+}
+h3{
+    color: rgb(10, 55, 85);
+}
+footer{
+    text-align: center;
+    color: rgb(13, 148, 31);
+    font-size: 20px;
+}
+.hidii{
+    visibility: hidden;
+}
+.hiden{
+    visibility: hidden;
+}
+.top{
+    visibility: hidden;
+}
+.jae{
+    visibility:visible;
+}
